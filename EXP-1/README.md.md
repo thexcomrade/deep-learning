@@ -1,60 +1,29 @@
-&nbsp;**TensorFlow Basics Demonstration**
+README for EXPERIMENT 1 A.ipynb
+Objective
+The objective of this experiment is to familiarize with TensorFlow operations by creating and manipulating various types of tensors (scalars, vectors, matrices, and higher-dimensional tensors). The tasks include understanding tensor properties (shape, rank, size), performing arithmetic operations, and applying transformations like squeezing and one-hot encoding.
 
+Problem Statement
+The notebook consists of a series of tasks aimed at exploring TensorFlow's capabilities:
 
+Creating tensors of different dimensions (scalar, vector, matrix, 3D tensor).
+Analyzing tensor properties (shape, rank, size).
+Generating random tensors and performing operations like multiplication and dot product.
+Manipulating tensor shapes (squeezing) and finding extreme values.
+One-hot encoding a tensor.
+Dataset Used and Its Description
+No external dataset was used in this experiment. The tensors were generated programmatically using TensorFlow's built-in functions, such as tf.constant() for fixed values and tf.random.uniform() for random values within specified ranges.
 
-\### \*\*Aim\*\*
-
-
-
-To understand the fundamentals of TensorFlow by creating and manipulating tensors of different ranks, shapes, and sizes, and to explore basic tensor operations using Python.
-
-
-
----
-
-
-
-\### \*\*Short Description\*\*
-
-
-
-This project introduces the core concepts of TensorFlow by:
-
-
-
-\* Installing and importing the TensorFlow library.
-
-\* Creating constants in the form of scalars, vectors, matrices, and higher-dimensional tensors.
-
-\* Understanding key tensor properties like \*\*shape\*\*, \*\*rank\*\*, and \*\*size\*\*.
-
-\* Generating random tensors with specified shapes and value ranges.
-
-\* Performing simple tensor manipulations for educational purposes.
-
-
-
-It serves as a beginner-friendly demonstration of how TensorFlow structures and handles data in a deep learning workflow.
-
-
-
----
-
-
-
-\### \*\*About the Result\*\*
-
-
-
-\* The code first prints different types of tensors (scalar, vector, matrix, and 3D tensor) along with their values.
-
-\* It displays the \*\*shape\*\* (dimensions), \*\*rank\*\* (number of dimensions), and \*\*size\*\* (total number of elements) of a tensor.
-
-\* Random tensors are generated to show how TensorFlow can create data for experiments or initialization in machine learning models.
-
-\* The outputs clearly show the differences between various tensor ranks and their structural representations, helping beginners visualize how data is organized in TensorFlow.
-
-
-
-
-
+Deep Learning Methods Used
+Tensor Creation: Used tf.constant() and tf.random.uniform() to create tensors with specific shapes and values.
+Tensor Operations: Applied element-wise multiplication (tf.multiply), matrix multiplication (tf.matmul), and dot product.
+Tensor Properties: Utilized tf.shape, tf.rank, and tf.size to inspect tensor dimensions and structure.
+Tensor Manipulation: Employed tf.squeeze to remove redundant dimensions and tf.argmax to find indices of maximum values.
+One-Hot Encoding: Converted a tensor into a one-hot encoded representation using tf.one_hot.
+Results
+Successfully created and displayed tensors of varying dimensions.
+Computed and printed tensor properties (shape, rank, size) for analysis.
+Performed arithmetic operations (multiplication, dot product) on random tensors.
+Demonstrated tensor squeezing to adjust shapes and identified min/max values in tensors.
+Generated a one-hot encoded tensor from a given input.
+Conclusion
+This experiment provided hands-on experience with TensorFlow's core functionalities for tensor creation, manipulation, and analysis. The tasks covered essential operations that form the foundation for more complex deep learning workflows. By completing these exercises, one gains a better understanding of how tensors work in TensorFlow and how to perform common operations efficiently.
